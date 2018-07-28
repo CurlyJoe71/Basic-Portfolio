@@ -1,0 +1,19 @@
+header div.logo {
+    height: 20px;
+    background-color: #ffffff;
+    color: white;
+}
+
+.profile_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    float: left;
+}
+
+.main p {
+    display: block;
+    float: left;
+    padding-left: 20px;
+}
