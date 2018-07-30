@@ -34,7 +34,6 @@ a:hover {
 
 header {
     height: 60px;
-    /* line-height: 35px; */
     border-bottom: 2px solid #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
@@ -149,36 +148,37 @@ form textarea {
 
 .portfolio-container {
     position: relative;
-    /* text-align: center; */
-    color: white;
+    float: left;
+    background-color: white;
+    width: 960px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.pic-container {
+    position: relative;
+    float: left;
 }
 
 .portfolio-pic {
-    /* display: block; */
     margin-left: 20px;
     margin-top: 20px;
-    /* margin-right: 10px; */
+    margin-bottom: 20px;
     box-shadow: 5px 10px 8px #888888;
-    display: inline-block;
-
 }
 
-
-
-
 .portfolio-banner {
-    background-color: teal;
+    background: linear-gradient(to right, teal , rgb(10, 37, 112));
     color: white;
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     padding-top: 5px;
     margin-left: 20px;
     height: 25px;
     width: 200px;
     text-align: center;
-
 }
 
 .push {
     height: 30px;
 }
+
