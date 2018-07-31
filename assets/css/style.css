@@ -11,8 +11,8 @@ body {
 }
 
 .wrapper {
-    min-height: 90%;
-    margin-bottom: -100px;
+    min-height: 85%;
+    margin-bottom: -90px;
 }
 
 .footer {
@@ -113,6 +113,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 10px;
+    position: sticky;
 }
 
 form {
